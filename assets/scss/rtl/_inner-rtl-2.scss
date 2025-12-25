@@ -1,0 +1,263 @@
+@use '../utils' as *;
+/*----------------------------------------*/
+/*  rtl css
+/*----------------------------------------*/
+
+
+.tp-breadcrumb-s7-shape{
+	@media #{$xl} {
+		left: 30px;
+	}
+}
+.service-3-process-list span {
+	margin-left: 20px;
+	margin-right: 0;
+}
+.service-3-process-thumb{
+	@media #{$md,$xs} {
+		width: 100%;
+	}
+	& img{
+		@media #{$md,$xs} {
+			width: 100%;
+		}
+	}
+}
+.ca-award-item:hover {
+	@media #{$xs} {
+		padding: 36px 30px 30px;
+	}
+}
+.tp-footer-widget-menu ul li a{
+	@media #{$xs} {
+		font-size: 17px;
+	}
+}
+.tp-service-inner-2-title .tp-section-title{
+	& br{
+		@media #{$lg} {
+			display: none;
+		}
+	}
+}
+.tp-service-item-box {
+	@media #{$lg} {
+		padding-right: 0;
+	}
+}
+.inner-text-slider-wrap .tp-copyright-slider-item p{
+	@media #{$xs} {
+		font-size: 80px;
+	}
+}
+.tp-login-input input {
+	padding-left: 55px;
+}
+.tp-login-remeber label {
+	padding-right: 26px;
+	padding-left: 0;
+}
+.tp-login-remeber label::after {
+	right: 0;
+	left: auto;
+}
+.tp-login-remeber label::before {
+	right: 0;
+	left: auto;
+}
+.inner-portfolio-2-style .tp-project-title{
+	@media #{$lg,$md,$xs} {
+		font-size: 20px;
+	}
+}
+.tp-project-showcase-nav span {
+	& .ml-15 {
+		margin-left: 0;
+		margin-right: 15px;
+	}
+	& .mr-15{
+		margin-right: 0;
+		margin-left: 15px;
+	}
+}
+.tp-project-single-style .tp-breadcrumb-s7-content p{
+	@media #{$lg,$md,$xs} {
+		margin-bottom: 30px;
+	}
+	& br{
+		@media #{$xl,$xs} {
+			display: none;	
+		}
+	}
+}
+.tp-project-full-content span{
+	& i{
+		font-style: normal;
+	}
+}
+.tp-project-list-style .ca-award-year {
+	margin-left: 110px;
+	margin-right: 0;
+	@media #{$md,$xs} {
+		margin-left: 30px;
+	}
+}
+.tp-project-full-content {
+	right: 80px;
+	left: auto;
+	@media #{$md,$xs} {
+		right: 20px;
+	}
+}
+.tp-project-full-content .tp-project-title{
+	@media #{$lg} {
+		font-size: 35px;
+	}
+}
+.tp-project-navigation-thumb img.ml-30{
+	margin-left: 0;
+	margin-right: 30px;
+}
+.tp-project-details-overview-wrap {
+	margin-left: 0;
+	margin-right: 90px;
+	@media #{$lg,$md,$sm,$xs}{
+		margin-right: 0;
+	}
+}
+.tp-project-details-title {
+	@media #{$lg} {
+		font-size: 30px;
+	}
+}
+.tp-project-navigation-title{
+	@media #{$lg,$md,$xs} {
+		font-size: 16px;
+	}
+}
+.tp-about-me-hero-thumb{
+	@media #{$md,$xs} {
+		display: none;
+	}
+	&-2 img {
+		@media #{$md,$xs} {
+			width: 100%;
+		}
+	}
+}
+.tp-offcanvas-2-right-info-title{
+	@media #{$md,$xs} {
+		font-size: 20px;
+	}
+}
+.tp-copyright-menu a:not(:last-child){
+	@media #{$md} {
+		margin-left: 25px;
+	}
+}
+.tp-career-details-right-info{
+	@media #{$lg,$md,$xs} {
+		margin-right: 0;
+	}
+}
+.tp-career-details-right-btn{
+	@media #{$xs} {
+		font-size: 14px;
+	}
+}
+.tp-benefit-item {
+	border-left: 1px solid #F1F1F4;
+	border-right: none;
+}
+.tp-benefit{
+    &-box{
+        & .row{
+            [class*= "col"]{
+                &:nth-child(4n){
+                    & .tp-benefit-item{
+                        border-left: none;
+                    }
+                }
+            }
+        }
+    }
+}
+.tp-career-inner-award-heading.pl-180 {
+	padding-left: 0;
+	padding-right: 180px;
+	@media #{$lg,$md,$xs} {
+		padding-right: 0;
+	}
+}
+.tp-career-inner-value-item{
+	& p{
+		& br{
+			display: none;
+		}
+	}
+}
+.tp-breadcrumb-s1-wrap{
+	@media #{$md,$xs} {
+		padding-right: 0;
+	}
+}
+.tp-career-inner-value-wrap{
+	@media #{$lg,$md,$xs} {
+		padding-right: 0;
+	}
+}
+.cn-contact-info-thumb {
+	@media #{$xl} {
+		margin-left: 50px;
+	}
+	@media #{$xs} {
+		margin-left: 0;
+	}
+}
+.cn-contact-left-title{
+	@media #{$xl,$xs} {
+		font-size: 24px;
+	}
+}
+.tp-service-inner-2-bigtext{
+	@media #{$xl,$lg,$md,$xs} {
+		right: 0;;
+	}
+}
+.ma-blog-meta span{
+	@media #{$xl} {
+		font-size: 14px;
+	}
+	&:first-child::after {
+		@media #{$xl} {
+			margin: 0 8px;
+		}
+	}
+}
+.tp-blog-tab-wrap nav .nav-link{
+	@media #{$xs} {
+		margin: 0 10px;
+	}
+}
+.postbox__comment ul {
+	margin-left: 75px;
+	margin-right: 0;
+	@media #{$xs} {
+		margin-left: 0;
+	}
+}
+.sidebar-widget-main{
+	@media #{$xl,$lg} {
+		padding: 40px 30px 40px 30px;
+	}
+}
+.postbox-details-form{
+	@media #{$lg,$xs} {
+		padding: 40px;
+	}
+}
+.postbox-card{
+	@media #{$xs} {
+		padding: 68px 30px 40px 30px;
+	}
+}

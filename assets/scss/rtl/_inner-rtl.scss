@@ -1,0 +1,289 @@
+@use '../utils' as *;
+/*----------------------------------------*/
+/*  rtl css
+/*----------------------------------------*/
+
+.tp-footer-10-input button {
+	right: auto;
+	left: 10px;
+}
+.tp-footer-10-input input {
+	padding-right: 0;
+	padding-left: 40px;
+}
+.tp-about-us-brand-ptb::after {
+	left: auto;
+	right: 25%;
+}
+.tp-breadcrumb-s1-shape {
+	right: auto;
+	left: 0;
+}
+.tp-breadcrumb-s1-subtitle::after {
+	margin-left: 0;
+	margin-right: 10px;
+}
+.tp-breadcrumb-s1-bottom-text p svg {
+	margin-left: 0;
+	margin-right: 5px;
+}
+.tp-about-funfact-circle.style-2 {
+	right: auto;
+	left: 70px;
+}
+.tp-about-funfact-circle.style-3 {
+	left: auto;
+	right: 30px;
+}
+.tp-about-funfact-circle.style-4 {
+	right: auto;
+	left: 105px;
+}
+.tp-about-funfact-wrapper {
+	padding-left: 0;
+	padding-right: 145px;
+}
+.tp-about-funfact-heading{
+    padding-left: 0;
+    padding-right: 130px;
+}
+.tp-service-inner-2-bigtext {
+	left: auto;
+	right: -60px;
+}
+.tp-service-inner-2-title .tp-section-subtitle::before {
+	right: auto;
+	left: -48px;
+}
+.postbox-details-tag span:last-child {
+	padding-left: 0;
+	margin-left: 0;
+	padding-right: 9px;
+	margin-right: 9px;
+}
+.postbox-details-tag span:last-child::after {
+	left: auto;
+	right: -3px;
+}
+.postbox-author-info-wrap{
+    &:not(:first-child){
+        & .postbox-author-info{
+            margin-right: 0;
+            margin-left: 30px;
+			@media #{$xs} {
+				margin-left: 20px;
+			}
+        }
+    }
+}
+.postbox-details-author-img{
+    margin-right: 0;
+    margin-left: 15px;
+}
+.postbox-details-tag i svg {
+	margin-right: 0;
+	margin-left: 4px;
+}
+.postbox-blockquote-icon{
+    margin-right: 0;
+    margin-left: 30px;
+}
+.postbox-blockquote-des span::before {
+	left: auto;
+	right: 0;
+}
+.postbox-blockquote-des span {
+	padding-left: 0;
+	padding-right: 50px;
+}
+.postbox-details-list ul li {
+	padding-left: 0;
+	padding-right: 20px;
+}
+.postbox-details-list ul li::before {
+	left: auto;
+	right: 0;
+}
+.postbox-details-prev i {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.postbox-details-next i {
+	margin-left: 0;
+	margin-right: 10px;
+}
+.postbox__comment-avater {
+    margin-right: 0;
+    margin-left: 30px;
+	@media #{$lg,$xs} {
+		margin-left: 20px;
+	}
+}
+.postbox__comment-reply a span {
+	margin-left: 0;
+	margin-right: 6px;
+}
+.postbox-details-tag-2 span {
+	margin-right: 0;
+	margin-left: 15px;
+}
+.postbox-details-author .sidebar-widget-author-img {
+	margin-right: 0;
+	margin-left: 30px;
+}
+.sidebar-search button {
+	right: auto;
+	left: 25px;
+}
+.sidebar-search input {
+	padding: 0 22px;
+	padding-left: 60px;
+}
+.rc-post-thumb {
+	margin-right: 0;
+	margin-left: 30px;
+	@media #{$xl} {
+		margin-left: 20px;
+	}
+}
+.postbox-author-img {
+	margin-right: 0;
+	margin-left: 12px;
+}
+.tp-breadcrumb-s9-subtitle span {
+	margin-left: 0;
+	margin-right: 10px;
+}
+.postbox-tag {
+	left: auto;
+	right: 45px;
+}
+.tp-breadcrumb-s7-shape {
+	right: auto;
+	left: 185px;
+}
+.tp-career-details-right-info {
+    margin-left: 0;
+    margin-right: 30px;
+}
+.tp-career-details-dec ul li {
+	padding-left: 0;
+	padding-right: 16px;
+}
+.tp-career-details-dec ul li::after {
+	left: auto;
+	right: 0;
+}
+.tp-breadcrumb-s1-wrap {
+	padding-left: 0;
+	padding-right: 220px;
+}
+.tp-breadcrumb-s3-shape {
+	right: auto;
+	left: 0;
+}
+.tp-career-inner-value-title span {
+	margin-right: 0;
+	margin-left: 4px;
+}
+.tp-career-inner-value-wrap {
+	padding-left: 0;
+	padding-right: 70px;
+}
+.cart-page-total ul > li > span {
+	float: left;
+}
+.tp-contact-me-subtitle::after {
+	margin-left: 0;
+	margin-right: 10px;
+}
+.tp-contact-us-heading {
+	margin-right: 0;
+	margin-left: -260px;
+}
+.tp-contact-us-info {
+	right: auto;
+	left: 32px;
+}
+.cn-contact-info-thumb {
+	margin-right: 0;
+	margin-left: 140px;
+}
+.tp-contact-us-shape{
+    padding-left: 0;
+    padding-right: 160px;
+}
+.ar-about-funfact-item-icon {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.tp-login-option-item:not(:last-child) {
+	margin-right: 0;
+}
+.tp-login-option-item:not(:first-child) {
+	margin-right: 10px;
+}
+.tp-login-option-item.has-google a img {
+	margin-right: 0;
+	margin-left: 7px;
+}
+.tp-login-input-eye {
+	right: auto;
+	left: 26px;
+}
+.product__details-thumb-tab{
+    margin-right: 0;
+    margin-left: 70px;
+}
+.product__details-rating .product__rating {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.product__details-rating-count {
+	padding-left: 0;
+	padding-right: 9px;
+}
+.product__details-rating-count::after {
+	left: auto;
+	right: 0;
+}
+.product__details-action button:not(:last-child) {
+	margin-right: 0;
+	margin-left: 6px;
+}
+.product-desc-feature-thumb{
+    margin-right: 0;
+    margin-left: 25px;
+}
+.product__details-description .product-desc-feature-content p {
+	padding-right: 0;
+	padding-left: 75px;
+}
+.product__details-description-content{
+    padding-right: 0;
+    padding-left: 30px;
+}
+.tp-project-details-shedule{
+    margin-right: -22px;
+    margin-left: 80px;
+}
+.tp-project-navigation-thumb{
+    & img{
+        margin-right: 0;
+        margin-left: 30px;
+    }
+    &.next-item{
+        & img{
+            margin-left: 0;
+            margin-right: 30px;
+        }
+    }
+}
+.tp-about-me-hero-main{
+    @media #{$xl,$lg,$md,$xs}{
+        padding-left: 0;
+    }
+}
+.postbox-details-author .sidebar-widget-author-social {
+	justify-content: right;
+}
