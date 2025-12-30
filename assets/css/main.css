@@ -141,6 +141,7 @@ li,
   transform: translateY(-1px);
 }
 
+
 .ds-price-item-list ul li span, .bnc-portfolio-slider-arrow button span, .ds-testimonial-item-name svg, .tp-footer-10-btn span, .tp-footer-9-col-4 .ds-footer-widget-input .tp-btn-green span, .postbox__comment-reply a span, .breadcrumb__content .breadcrumb__list span svg {
   -webkit-transform: translateY(-2px);
   -moz-transform: translateY(-2px);
@@ -157,12 +158,13 @@ li,
   transform: translateY(-3px);
 }
 
+
 /* transform */
 :root {
   /**
   @font family declaration
   */
-  --tp-ff-p: 'Poppins', serif;
+  --tp-ff-p: 'Shabnam', sans-serif;
   --tp-ff-body:  'Shabnam', sans-serif;
   --tp-ff-popins: 'Shabnam', sans-serif;
   --tp-ff-heading: 'Shabnam', sans-serif;
@@ -171,7 +173,8 @@ li,
   --tp-ff-unbounded: 'Shabnam', sans-serif;
   --tp-ff-space: 'Shabnam', sans-serif;
   --tp-ff-bricolage: 'Shabnam', sans-serif;
-  --tp-ff-fontawesome: "Font Awesome 6 Pro";
+  --tp-ff-fontawesome:"Font Awesome 6 Free" !important;
+  
   /**
   @color declaration
   */
@@ -249,6 +252,7 @@ body {
   color: var(--tp-text-body);
   font-family: var(--tp-ff-body);
 }
+
 .rotate-180 {
   transform: rotate(180deg);
   transition: transform 0.3s ease; /* برای انیمیشن نرم */
@@ -4162,7 +4166,7 @@ body.tp-magic-cursor #magic-cursor {
   content: "\f078";
   margin-left: 4px;
   display: inline-block;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 13px;
   transform: translateY(-2px);
   color: currentColor;
@@ -17678,6 +17682,7 @@ body.tp-magic-cursor #magic-cursor {
   background-color: var(--tp-common-black);
   margin-bottom: 45px;
 }
+
 .inner-testimonial-style .ds-testimonial-item-content p {
   font-size: 44px;
   letter-spacing: -0.04em;
@@ -23300,6 +23305,7 @@ body.tp-magic-cursor #magic-cursor {
   color: var(--tp-common-white);
   font-family: var(--tp-ff-teko);
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .skew-slider-content h4 {
     font-size: 100px;
@@ -26174,6 +26180,7 @@ body.tp-magic-cursor #magic-cursor {
   top: -2px;
   left: 4px;
   font-size: 12px;
+  font-weight: 900 !important; 
 }
 .shop__widget-list-item label:hover {
   cursor: pointer;
