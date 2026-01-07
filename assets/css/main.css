@@ -161,9 +161,20 @@ li,
 
 /* transform */
 :root {
+  /* --tp-ff-p: 'Poppins', serif;
+  --tp-ff-body: 'Poppins', serif;
+  --tp-ff-popins: 'Poppins', serif;
+  --tp-ff-heading: 'Unbounded', sans-serif;
+  --tp-ff-teko: 'Teko', serif;
+  --tp-ff-playfair: 'Playfair Display', serif;
+  --tp-ff-unbounded: 'Unbounded', sans-serif;
+  --tp-ff-space: 'Space Grotesk', sans-serif;
+  --tp-ff-bricolage: 'Bricolage Grotesque', sans-serif;
+  --tp-ff-fontawesome: "Font Awesome 6 Pro"; */
   /**
   @font family declaration
   */
+
   --tp-ff-p: 'Shabnam', sans-serif;
   --tp-ff-body:  'Shabnam', sans-serif;
   --tp-ff-popins: 'Shabnam', sans-serif;
